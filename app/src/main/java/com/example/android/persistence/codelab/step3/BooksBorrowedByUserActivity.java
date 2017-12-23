@@ -54,6 +54,8 @@ public class BooksBorrowedByUserActivity extends AppCompatActivity {
     }
 
     private void subscribeUiBooks() {
+
+
         // TODO: refresh the list of books when there's new data
         // mViewModel.books.observe(...
     }

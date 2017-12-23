@@ -58,5 +58,12 @@ public interface UserDao {
     List<User> findUsersYoungerThanSolution(int age);
 
     @Query("DELETE FROM User")
-    void deleteAll();
+    void deleteAll( );
+
+    @Query("SELECT * FROM User WHERE age < :age")
+    List<User> findYoungerThan(int age);
+
+
+
+
 }
